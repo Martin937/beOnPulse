@@ -1,0 +1,44 @@
+1.	Устанавливаем GIT
+2.  npm init
+3.	git init	Запускаем git
+4.	git config --local user.name "Martin937"	Объявляем свое имя
+5.	git config --local user.email "Martin937@yandex.ru"	Объявляем свой имейл
+6.	git config --local core.autocrlf true	Параметры установки окончаний строк
+7.	git config --local core.safecrlf warn	Параметры установки окончаний строк
+8.	git config --local core.quotepath off	Установка отображения unicode
+9.	git status	Посмотреть состояние
+10.	git add -A	Добавить все файлы
+11.	git commit -a -m”message”	Создание контрольной точки
+12.	git add -A + git commit -a -m”message”	Вводить после внесения всех изменений
+13.	git log	Посмотреть изменения
+14.
+15.	Создаём проект на GITHUB и связываем его с проектом
+16. git remote add origin https://github.com/Martin937//Martin937.github.io.git	Прописываем путь к github
+17.	git remote set-url origin https://github.com/Martin937/Martin937.github.io.git Если нужно изменить уже существующий
+18.	git push -u origin master	Заливка на github
+19.	git pull	Обновление всех связей и изменений
+20.	git push	Заливка на github
+21.
+22.
+23.	Устанавливаем и запускаем GULP
+24.
+25.	node --version	Проверяем установку nodejs
+26.	npm --version	Проверяем установку npm
+27.	npx --version	Проверяем установку npx
+28.	npm init	Создание пакета .JSON-файл в каталог проекта
+
+29.	npm install --save-dev gulp-cli	Установите утилиту командной строки gulp
+30.	npm install --save-dev gulp	Установите пакет gulp
+31.	gulp --version	Проверяем установку gulp
+32.	npm i gulp-sass --save-dev	Устанавливаем пакеты npm
+33.	npm i browser-sync --save-dev	Устанавливаем пакеты npm
+34.	npm i gulp-autoprefixer --save-dev	Устанавливаем пакеты npm
+35.	npm i gulp-clean-css --save-dev	Устанавливаем пакеты npm
+36.	npm i gulp-rename --save-dev	Устанавливаем пакеты npm
+37. npm i gulp-htmlmin --save-dev  Устанавливаем пакеты npm
+38. npm i gulp-imagemin --save-dev  Устанавливаем пакеты npm
+39.	npm i	Если используем скопированные файлы
+
+
+
+40. Для сброса кэша сервера нажать SHIFT+F5
